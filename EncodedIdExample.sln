@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodedIdExample", "EncodedIdExample\EncodedIdExample.csproj", "{0F7FBAE8-C804-42C4-B8A6-56B1F324CB53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeIdExample.Policy", "EncodeIdExample.Policy\EncodeIdExample.Policy.csproj", "{28430498-C1C9-40E9-AE34-D9DCCDC7A121}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeIdExample.Policy", "EncodedIdExample.Policy\EncodedIdExample.Policy.csproj", "{28430498-C1C9-40E9-AE34-D9DCCDC7A121}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeIdExample.Test", "EncodedIdExample.Test\EncodeIdExample.Test.csproj", "{4681D9BA-7702-48FB-9FF5-CD897DA08919}"
 EndProject
