@@ -4,8 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using EncodeIdExample.Policy.Dtos;
-using EncodeIdExample.Policy.Utils;
+using EncodedIdExample.Policy.Dtos;
+using EncodedIdExample.Policy.Utils;
 
 namespace EncodedIdExample.Controllers
 {

@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace EncodeIdExample.Policy.Utils
+namespace EncodedIdExample.Policy.Utils
 {
   public class EncryptionUtils
   {

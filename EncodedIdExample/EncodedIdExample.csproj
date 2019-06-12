@@ -248,9 +248,9 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EncodeIdExample.Policy\EncodeIdExample.Policy.csproj">
+    <ProjectReference Include="..\EncodedIdExample.Policy\EncodedIdExample.Policy.csproj">
       <Project>{28430498-C1C9-40E9-AE34-D9DCCDC7A121}</Project>
-      <Name>EncodeIdExample.Policy</Name>
+      <Name>EncodedIdExample.Policy</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
@@ -280,6 +280,11 @@
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

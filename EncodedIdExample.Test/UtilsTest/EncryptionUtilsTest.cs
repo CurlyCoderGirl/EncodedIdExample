@@ -1,5 +1,5 @@
 ﻿using System;
-using EncodeIdExample.Policy.Utils;
+using EncodedIdExample.Policy.Utils;
 using NUnit.Framework;
 
 namespace EncodedIdExample.Test.UtilsTest

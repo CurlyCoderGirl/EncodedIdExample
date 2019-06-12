@@ -1,4 +1,4 @@
-﻿namespace EncodeIdExample.Policy.Dtos
+﻿namespace EncodedIdExample.Policy.Dtos
 {
   public class Build
   {
