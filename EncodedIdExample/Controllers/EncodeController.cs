@@ -39,7 +39,7 @@ namespace EncodedIdExample.Controllers
         string encrypt = EncryptionUtils.Encrypt(build.BuildId.ToString());
 
         return Request.CreateResponse(HttpStatusCode.OK,
-          $"https://localhost.encodeidexample.codergirl.com?id=" + encrypt);
+          $"http://127.0.0.1:8080/?id=" + encrypt);
       }
 
 

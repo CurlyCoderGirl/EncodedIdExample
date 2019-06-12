@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UtilsTest\EncryptionUtilsTest.cs" />
+    <Compile Include="ClientTest\TestClientTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -58,6 +59,13 @@
       <Project>{28430498-C1C9-40E9-AE34-D9DCCDC7A121}</Project>
       <Name>EncodedIdExample.Policy</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EncodedIdExample.Client\EncodedIdExample.Client.csproj">
+      <Project>{05EB604D-596C-49E6-A777-F996EF003019}</Project>
+      <Name>EncodedIdExample.Client</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClientTest\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
